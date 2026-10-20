@@ -67,25 +67,26 @@ The optimized production bundle is generated in `dist/Elanselvan__portfolio/brow
 
 ---
 
-## 🌐 Hosting & Custom Domain Setup
+## 🌐 Live URL & Hosting
 
-This project is pre-configured for automated deployment to **Netlify**, **Vercel**, and **Cloudflare Pages**.
+- **Live URL**: [https://elanselvan.pages.dev](https://elanselvan.pages.dev)
+- **Hosted On**: [Cloudflare Pages](https://pages.cloudflare.com/) (Free Edge CDN with Sub-Second Global Latency & Automatic SSL)
 
-### Deploying to Netlify (Recommended)
-1. Go to [Netlify](https://app.netlify.com/) and click **"Add new site" > "Import an existing project"**.
-2. Connect your GitHub account and select **`Elanselvan003/elanselvan-portfolio`**.
-3. Build settings will be detected automatically from `netlify.toml`:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist/Elanselvan__portfolio/browser`
-4. Click **Deploy Site**.
+### Continuous Deployment via Cloudflare Pages
+This project is connected directly to Cloudflare Pages under the account `elanselvan1997@gmail.com`.
+
+To deploy changes from the command line:
+```bash
+npm run deploy
+```
 
 ### Connecting a Custom `.com` Domain (e.g., `elanselvan.com`)
-1. In your Netlify dashboard, navigate to **Site configuration > Domain management**.
-2. Click **Add custom domain** and enter your domain name (e.g. `elanselvan.com`).
-3. Update your domain registrar's DNS settings (GoDaddy, Namecheap, Cloudflare, etc.):
-   - **Apex domain (`@` / `elanselvan.com`):** Add an `A` record pointing to `75.2.60.5`
-   - **Subdomain (`www`):** Add a `CNAME` record pointing to your Netlify site URL (e.g., `elanselvan.netlify.app`)
-4. Netlify will automatically provision a free Let's Encrypt SSL/TLS certificate within a few minutes.
+1. In your [Cloudflare Dashboard](https://dash.cloudflare.com/), go to **Workers & Pages > Overview > elanselvan**.
+2. Select the **Custom domains** tab.
+3. Click **Set up a custom domain**.
+4. Enter your `.com` domain (e.g., `elanselvan.com` or `www.elanselvan.com`).
+5. If your domain is already registered on Cloudflare, Cloudflare sets up the DNS records automatically! If registered elsewhere (GoDaddy, Namecheap, etc.), Cloudflare will provide you with the `CNAME` record to add in your registrar.
+6. Cloudflare automatically generates an edge SSL/TLS certificate and enforces HTTPS.
 
 ---
 

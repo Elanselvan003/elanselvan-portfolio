@@ -244,14 +244,15 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: 'portfolio-v2026',
     title: 'Modern Developer Portfolio & Design System',
     badge: 'Production Showcase',
-    shortDesc: 'High-performance, accessible developer portfolio built with Angular standalone components, Tailwind CSS, and Netlify deployment.',
+    shortDesc: 'High-performance, accessible developer portfolio built with Angular standalone components, Tailwind CSS, and Cloudflare Pages edge deployment.',
     detailedDesc: 'Engineered from the ground up to eliminate loading bottlenecks, artificial screen delays, and oversized dependencies. Features dark navy visual aesthetics, zero external font/icon CDN dependencies, semantic HTML5 structure, and direct inbox delivery via FormSubmit.',
-    technologies: ['Angular 21', 'TypeScript', 'Tailwind CSS', 'FormSubmit API', 'SEO & OpenGraph', 'WCAG 2.1 AA'],
+    technologies: ['Angular 21', 'TypeScript', 'Tailwind CSS', 'Cloudflare Pages', 'FormSubmit API', 'SEO & OpenGraph', 'WCAG 2.1 AA'],
     keyContributions: [
       'Eliminated render-blocking CDN dependencies and fixed loading screen freezing issues.',
       'Implemented seamless theme persistence and responsive layouts across all device form factors.',
       'Configured direct email forwarding to elanselvan1997@gmail.com with instant client-side validation.'
     ],
+    liveUrl: 'https://elanselvan.pages.dev',
     githubUrl: 'https://github.com/Elanselvan003/elanselvan-portfolio',
     isFeatured: true
   },

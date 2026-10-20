@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "dev": "ng serve"
+    "dev": "ng serve",
+    "deploy": "ng build && wrangler pages deploy dist/Elanselvan__portfolio/browser --project-name=elanselvan --branch=main"
   },
   "dependencies": {
     "@angular/animations": "^20.0.0",

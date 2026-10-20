@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://elanselvan.netlify.app/sitemap.xml
+Sitemap: https://elanselvan.pages.dev/sitemap.xml
