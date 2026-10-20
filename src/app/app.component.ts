@@ -1026,7 +1026,7 @@ export class AppComponent implements OnInit, OnDestroy {
     { id: 'contact', label: 'Contact' }
   ];
 
-  isDarkMode = true;
+  isDarkMode = false;
   isScrolled = false;
   isMobileMenuOpen = false;
   activeSection = 'home';
@@ -1096,7 +1096,7 @@ export class AppComponent implements OnInit, OnDestroy {
     if (savedTheme) {
       this.isDarkMode = savedTheme === 'dark';
     } else {
-      this.isDarkMode = true;
+      this.isDarkMode = false;
     }
     this.applyTheme();
   }
