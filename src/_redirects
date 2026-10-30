@@ -1,1 +1,3 @@
-/*    /index.html   200
+# Friendly redirects
+/resume    /assets/Elanselvan.pdf    302
+/cv        /assets/Elanselvan.pdf    302

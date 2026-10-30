@@ -1,0 +1,30 @@
+{
+  "name": "Elanselvan S | Angular Front-End Developer",
+  "short_name": "Elanselvan",
+  "description": "Portfolio of Elanselvan S, Angular Front-End Developer in Bengaluru with 4+ years experience specializing in Angular, TypeScript, RxJS, Signals, and scalable SaaS platforms.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060a12",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
+
